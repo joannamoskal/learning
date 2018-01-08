@@ -12,6 +12,5 @@ public class Main {
         //00AE
         char registeredValue = '\u00AE';
         System.out.println("registeredValue = " + registeredValue);
-
     }
 }
