@@ -48,11 +48,32 @@ public class Main {
             System.out.println("You got the high score!");
 
         int secondTopScore = 81;
-        if (topScore > secondTopScore && topScore < 100)
+        if ((topScore > secondTopScore) && (topScore < 100))
             System.out.println("Greater than second top score and less than 100");
+        if ((topScore>90) || (secondTopScore<=90))
+            System.out.println("One of these tests is true");
+        int newValue = 50;
+        if(newValue == 50)
+            System.out.println("This is true");
+
+        boolean isCar = false;
+                if(isCar == true)
+                    System.out.println("This is not supposed to happen");
+                isCar = true;
+                boolean wasCar = isCar ? true : false;
+
+        double doubleValue = 20;
+        double secondDoubleValue = 80;
 
 
+        System.out.println((doubleValue + secondDoubleValue)*25);
 
+        System.out.println(((doubleValue+secondDoubleValue)*25)%40);
+
+
+        PreviousResult = result;
+                if (result <=20)
+                    System.out.println("Total was over the limit");
     }}
 
 
